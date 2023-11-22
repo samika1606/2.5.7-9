@@ -16,6 +16,7 @@ public class MediaLib {
 
   public void addBook(Book b) {
     book = b;
+    date = Calendar.getDateTime();
     if (book == null){//2.5.8
       numEntries+=1;//2.5.8
       bookEntries+=1;//2.5.8
